@@ -1,0 +1,32 @@
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    border-bottom: 2px solid black;
+}
+
+.header__logo h1{
+    display: inline-block;
+    margin-bottom: 5vh;
+    font-size: 4vh;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    background: -webkit-linear-gradient(white 10%,#90CAF9 50%, #283593);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__logo h2{
+    display: inline-block;
+    margin-bottom: 5vh;
+    font-size: 6vh;
+    position: fixed;
+    right: 4vw;
+    margin-top: 2rem;
+    background: -webkit-linear-gradient(white 10%,#90CAF9 50%, #283593);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
