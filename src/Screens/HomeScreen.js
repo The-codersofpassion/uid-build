@@ -6,7 +6,7 @@ function HomeScreen() {
     return (
         <div className="homeScreen">
             <Nav />
-            {/* <Row /> */}
+            <Row />
         </div>
     )
 }
