@@ -1,24 +1,11 @@
-import React, { useEffect} from 'react';
+import React from 'react';
 
 function Row() {
-    
-    useEffect(() => {
-        const script = document.createElement('script');
-      
-        script.src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js";
-        script.async = true;
-      
-        document.body.appendChild(script);
-      
-        return () => {
-          document.body.removeChild(script);
-        }
-      }, []);
 
     return (
-        <div>
-            <ul>
-                <ul>
+        <div className="rows">
+            <ul className="rows">
+                <ul className="rows">
                     <li>
                         <h2>Get Your Unique Identification Number</h2>
                         <h3>UID is for every individual irrespective of age.</h3>
@@ -57,15 +44,50 @@ function Row() {
                         </ul>
                     </li>
                 </ul>
-                <ul>
+                <ul className="rows">
                     <li>
                         <h2>Frequently Asked Questions</h2>
                         <div className="container">
                             <div className="accordian">
-                                <div className="accordian-item" id="question1">
+                                <div className="accordian accordian-item" id="question1">
                                     <a href="#question1">
-                                        Are my documents safe here?
+                                        Are my documents safe here?<span>🔽</span>
+                                        <i className="icon ion-md-add"></i>
+                                        <i className="icon ion-md-remove"></i>
                                     </a>
+                                    <div className="answer">
+                                        <h2>Yes your details and documents are safe here until and unless you keep your details and mobile number updated because UID has a three step verification system that protects your account from getting hacked. </h2>
+                                    </div>
+                                </div>
+                                <div className="accordian accordian-item" id="question1">
+                                    <a href="#question2">
+                                        What if I lost my registered mobile number ?<span>🔽</span>
+                                        <i className="icon ion-md-add"></i>
+                                        <i className="icon ion-md-remove"></i>
+                                    </a>
+                                    <div className="answer">
+                                        <h2>If you lost your registered mobile number then you can access the otp from your email also and after logging in immediately update your new mobile number.</h2>
+                                    </div>
+                                </div>
+                                <div className="accordian accordian-item" id="question1">
+                                    <a href="#question3">
+                                        Can I access my account from anywhere and at anytime?<span>🔽</span>
+                                        <i className="icon ion-md-add"></i>
+                                        <i className="icon ion-md-remove"></i>
+                                    </a>
+                                    <div className="answer">
+                                        <h2>You can access your account at anytime and from anywhere by allowing the access to new device from verification email that you will receive on your registered mailID after you try to login. </h2>
+                                    </div>
+                                </div>
+                                <div className="accordian accordian-item" id="question1">
+                                    <a href="#question4">
+                                        What if i forgot the password ?<span>🔽</span>
+                                        <i className="icon ion-md-add"></i>
+                                        <i className="icon ion-md-remove"></i>
+                                    </a>
+                                    <div className="answer">
+                                        <h2>If you forget your password then UID provide you with forgot password option where you can change your password by accessing to the link you get on your mailID</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +95,7 @@ function Row() {
                 </ul>
             </ul>
         </div>
-    )
+    );
 }
 
 export default Row;

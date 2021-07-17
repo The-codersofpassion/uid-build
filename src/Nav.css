@@ -1,32 +1,51 @@
 .nav {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0;
-    border-bottom: 2px solid black;
+    position: fixed;
+    width: 100vw;
+    height: 20vw;
+    display: block;
+    margin-bottom: 1vh;
 }
 
-.header__logo h1{
-    display: inline-block;
-    margin-bottom: 5vh;
+.nav__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 1vh;
     font-size: 4vh;
     padding-left: 3vw;
     padding-top: 1vh;
-    background: -webkit-linear-gradient(white 10%,#90CAF9 50%, #283593);
+    background: -webkit-linear-gradient(white 7%,#90CAF9 , #283593 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.header__logo h2{
-    display: inline-block;
-    margin-bottom: 5vh;
+.logo {
+    margin-bottom: 1vh;
     font-size: 6vh;
-    position: fixed;
-    right: 4vw;
-    margin-top: 2rem;
-    background: -webkit-linear-gradient(white 10%,#90CAF9 50%, #283593);
+    padding-right: 10vh;
+    background: -webkit-linear-gradient(white 7% ,#90CAF9 , #283593 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.links {
+    height: 6vh;
+    background-image: linear-gradient( #161954, #7277db );
+}
 
+.myclass {
+    display: flex;
+    list-style-type: none;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-top: 1vh;
+}
 
+.myclass li :Link{
+    text-decoration: none;
+    color: white;
+    padding: 5vh 3vw;
+    font-size: 1vw;
+}
