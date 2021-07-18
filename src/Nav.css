@@ -42,14 +42,13 @@
 .myclass {
     display: flex;
     list-style-type: none;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    padding-top: 1vh;
+    justify-content: center;
+
 }
 
 .myclass li :Link{
     text-decoration: none;
     color: white;
-    padding: 5vh 3vw;
+    padding: 0vh 4.5vw;
     font-size: 1vw;
 }
