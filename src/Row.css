@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .rows {
-    margin-top: 4.6vh;
-    padding-top: 4.6vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.rows ul {
+    list-style-type: none;
+    margin-left: 1vw;
+}
+
+.Ids h2 {
+    font-size: 1.5vw;
+}
+
+.Ids h3 {
+    font-size: 1vw;
 }
