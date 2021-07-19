@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
@@ -12,10 +12,10 @@ function Nav() {
             </div>
             <div className="links">
                 <ul className="myclass">
-                    <li><NavLink to='/home'>Home</NavLink></li>
-                    <li><NavLink to='/UId'>Get UId</NavLink></li>
-                    <li><NavLink to='/About'>About</NavLink></li>
-                    <li><NavLink to='/Login'>Login</NavLink></li>
+                    <li><Link exact activeClassName="active" to='/home'>Home</Link></li>
+                    <li><Link activeClassName="active" to='/'>Get UId</Link></li>
+                    <li><Link activeClassName="active" to='/'>About</Link></li>
+                    <li><Link activeClassName="active" to='/'>Login</Link></li>
                 </ul>
             </div>
         </div>
