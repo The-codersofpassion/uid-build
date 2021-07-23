@@ -7,7 +7,7 @@ function Row() {
     return (
         <div className="rows">
             <ul className="Ids">
-                <li>
+                <li className="idli">
                     <h2>Get Your Unique Identification Number</h2>
                     <h3>UID is for every individual irrespective of age.</h3>
                     <p>From a new born to an adult everyone can enroll for UID</p>
@@ -17,7 +17,7 @@ function Row() {
                         <li><Link to='/'>Book your UID</Link></li>
                     </ul>
                 </li>
-                <li>
+                <li className="idli">
                     <h2>Update UID</h2>
                     <h3>Keep Your UID details up-to-date</h3>
                     <p>It is essential to keep your UID details correct and updated always</p>
@@ -26,7 +26,7 @@ function Row() {
                         <li><Link to='/'>UID update history</Link></li>
                     </ul>
                 </li>
-                <li>
+                <li className="idli">
                     <h2>UID services</h2>
                     <h3>An array of services for UID holders</h3>
                     <p>UID registered mobile number is essential to access the following services</p>
@@ -36,7 +36,7 @@ function Row() {
                         <li><Link to='/'>Lock/Unlock Details</Link></li>
                     </ul>
                 </li>
-                <li>
+                <li className="idli">
                     <h1>What is UID?</h1>
                     <p>UID is a 10 digit Unique Identification number that acts as ID and lets you store all the details at one place.</p>
                     <ul>

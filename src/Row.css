@@ -6,7 +6,21 @@
 
 .rows ul {
     list-style-type: none;
-    margin-left: 1vw;
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+
+.idli{
+    width: 40vw;
+    background-color: white;
+    border-top: 20px solid #161954;
+    margin-bottom: 3vh;
+    padding-left: 4vw;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 2rem;
 }
 
 .Ids h2 {
