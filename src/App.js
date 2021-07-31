@@ -11,10 +11,10 @@ function App() {
          <Switch>
            <Route exact path="/">
              <HomeScreen />
-             
            </Route>
          </Switch>
        </Router>
+
        
     </div>
   );
