@@ -1,0 +1,28 @@
+.footer{
+    background-color: rgb(24, 3, 211);
+    font-size: 15px;
+}
+
+.left-text {
+    text-align: left;
+    padding-top: 17px;
+    padding-left: 199px;
+    font-family: 'Ubuntu', sans-serif;
+    /* display: flex; */
+    color: white;
+}
+
+.right-text{
+    text-align: right;
+    color: white;
+    padding-right: 120px;
+    /* display: inline-block; */
+}
+
+.last-text{
+    text-align: left;
+    padding-left: 199px;
+    padding-bottom: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
