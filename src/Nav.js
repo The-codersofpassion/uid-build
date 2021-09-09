@@ -17,7 +17,7 @@ function Nav() {
                     <li><Link exact activeClassName="active" to='/'>Home</Link></li>
                     <li><Link activeClassName="active" to='/'>Get UId</Link></li>
                     <li><Link activeClassName="active" to='/'>About</Link></li>
-                    <li><Link activeClassName="active" onClick={() => history.push("/Login")}>Login</Link></li>
+                    <li><Link activeClassName="active" to='/login'>Login</Link></li>
                 </ul>
             </div>
         </div>
